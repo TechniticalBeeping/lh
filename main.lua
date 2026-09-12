@@ -9,7 +9,7 @@ queue_on_teleport([=[
         loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/59810384473976980152"))()
     end)
 
-    repeat task.wait() until getgenv().Bypassed
+    repeat task.wait() until getgenv().bypassloaded
 
     loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/99779786104572102737"))()
 ]=])
