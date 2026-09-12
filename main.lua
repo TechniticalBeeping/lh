@@ -5,8 +5,6 @@ writefile('landryhaxx/key.txt', lp_key)
 queue_on_teleport([=[
     lp_key = readfile('landryhaxx/key.txt')
 
-    repeat task.wait() until game:IsLoaded()
-
     task.spawn(function()
         loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/59810384473976980152"))()
     end)
