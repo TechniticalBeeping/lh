@@ -7,7 +7,7 @@ queue_on_teleport([=[
 
     task.spawn(function()
         loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/59810384473976980152"))()
-    end)()
+    end)
 
     repeat task.wait() until getgenv().Bypassed
 
