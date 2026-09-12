@@ -1,3 +1,5 @@
+if not lp_key then return end
+
 writefile('landryhaxx/key.txt', lp_key)
 
 queue_on_teleport([=[
