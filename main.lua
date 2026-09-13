@@ -6,12 +6,12 @@ queue_on_teleport([[
     script_key = readfile('landryhaxx/key.txt')
 
     task.spawn(function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/259f2737dc5cf5778cb87c834144a903.lua"))()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2c0b62621c9ff68acd26c3a220375a81.lua"))()
     end)
 
     repeat task.wait() until getgenv().bypassloaded
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/af3a50145af3c7bd2dda5350aa974db3.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/1bd272822d12866d9aa64c087bf7e22f.lua"))()
 ]])
 
 rconsoleprint('connect to a server now')
